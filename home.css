@@ -1,0 +1,230 @@
+body{
+    margin:0%;
+    background-color: rgb(53, 50, 50);
+}
+header{
+    align-items: center;
+    color: white;
+}
+select{
+    margin:30px 0px 0px 900px;
+    width: 85px;
+    height: 35px;
+    background: black;
+    color: white;
+    font-weight: 400;
+}
+svg{
+    width: 400%;
+    margin: 30px 0px 0px 60px;
+    color: red;
+}
+#bgmain>img{
+    height:800px;
+    width: 100%;
+    margin:-50px 0px 0px 0px;
+    filter:brightness(35%);
+}
+#menu{
+    display: flex;
+    position: absolute;
+    margin:-753px 0px 0px 3px;
+}
+#menu>a{
+    margin: 30px 0px 0px 40px;
+    width: 50px;
+    height: 20px;
+    border-radius: 3px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 7px 15px;
+}
+#search{
+    position: relative;
+    margin: -550px 0px 0px 0px;
+    width: 50%;
+    padding: 0% 25%;
+}
+#search>h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 65px;
+    text-align: center;
+}
+#search>h2{
+    margin: -25px 0px 0px 0px;
+    font-family: Georgia, 'Times New Roman';
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+}
+#search>form{
+    align-items: center;
+}
+#search>form>h4{
+    margin: 20px 0px 0px 0px;
+    font-family: Georgia, 'Times New Roman';
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500
+}
+#search>form>input{
+    width: 66%;
+    height: 70px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+#search>form>button{
+    width: 34%;
+    height: 73px;
+    margin-top: 24px;
+    font-size: 25px;
+    background: rgb(236, 31, 31);
+    color: white;
+    margin-left: -5px;
+}
+#search>form>button:hover{
+    background-color: red;
+}
+#sect1{
+    position: relative;
+    display: flex;
+    padding: 3%;
+    margin: 175px 0px 0px 0px;
+    color: white;
+    background: black;
+}
+#sect1>#text{
+    margin: 3% 0% 0% 10%;
+    width: 49%;
+}
+#sect1>#text>h1{
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#sect1>#text>h3{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#sect1img{
+    margin: 0% 0% 0% 0%;
+    width: 49%;
+    overflow: hidden;
+}
+#sect1img>img{
+    margin:-337px 0px 0px 0px;
+    width: 75%;
+    height: 350px;
+    
+}
+#sect2{
+    position: relative;
+    display: flex;
+    padding: 3%;
+    margin: 5px 0px 0px 0px;
+    color: white;
+    background: black;
+}
+#sect2>#text1{
+    margin: 3% 0% 0% 0%;
+    width: 48%;
+    padding: 0% 5%;
+}
+#sect2>#text1>h1{
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#sect2>#text1>h3{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#sect2img{
+    margin: 21% 0% 0% 4%;
+    width: 49%; 
+}
+#sect2img>img{
+    margin:-337px 0px 0px 0px;
+    width: 90%;
+    height: 350px;  
+}
+#sect3{
+    position: relative;
+    display: flex;
+    padding: 3%;
+    margin: 5px 0px 0px 0px;
+    color: white;
+    background: black;
+}
+#sect3>#text2{
+    margin: 3% 0% 0% 10%;
+    width: 49%;
+}
+#sect3>#text2>h1{
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#sect3>#text2>h3{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#sect3img{
+    margin: 0% 0% 0% 0%;
+    width: 49%;
+    overflow: hidden;
+}
+#sect3img>img{
+    margin:-285px 0px 0px 0px;
+    width: 75%;
+    height: 350px;  
+}
+#sectfaq{
+    position: relative;
+    /* display: flex; */
+    padding: 3%;
+    margin: 5px 0px 0px 0px;
+    color: white;
+    background: black;
+}
+#sectfaq>#text{
+    margin: 0% 0% 0% 10%;
+    width: 80%;
+    text-align: center;
+}
+#sectfaq>#text>h1{
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#sectfaq>form{
+    align-items: center;
+}
+#sectfaq>form>h4{
+    margin: 20px 0px 0px 0px;
+    font-family: Georgia, 'Times New Roman';
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500
+}
+#sectfaq>form>input{
+    width: 35%;
+    height: 70px;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 355px;
+}
+#sectfaq>form>button{
+    width: 15%;
+    height: 73px;
+    margin-top: 24px;
+    font-size: 25px;
+    background: rgb(236, 31, 31);
+    color: white;
+    margin-left: -5px;
+}
+#sectfaq>form>button:hover{
+    background-color: red;
+}
+#list{
+    list-style: none;
+}
